@@ -1,0 +1,152 @@
+body {
+  width: 500px;
+  min-width: 450px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  color: #25a2c3;
+  line-height: 1.5px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: black;
+  padding: 50px 150px;
+  margin: 0 auto;
+}
+
+.intro-container {
+  margin-top: -9px;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("/Assets/Esercizio/images/banner.jpg");
+  background-size: cover;
+  padding: 1em;
+}
+
+h1 {
+  padding: 1em;
+  font-size: 2em;
+}
+
+.intro-container p {
+  padding: 0 0.7em;
+}
+
+.intro-container button {
+  background-color: #f04c2f;
+  border: none;
+  width: 35%;
+  height: 50px;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  border-radius: 7px;
+  margin: 1.5em auto;
+}
+
+.intro-container button:hover {
+  cursor: pointer;
+}
+
+article {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+h2 {
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+article img {
+  border-radius: 250px;
+  box-sizing: border-box;
+  padding: 3em;
+  display: inline-block;
+  width: 100%;
+}
+
+.page-divider {
+  background-color: #e22d0e;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 2em auto;
+}
+
+.page-divider h1,
+.page-divider h2,
+.page-divider p {
+  color: white;
+}
+
+.recap-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.box-container {
+  border: 1px solid #dee1e3;
+  border-radius: 10px;
+  margin: 1.2em auto;
+  text-align: center;
+}
+
+.box-container img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.box-container p {
+  padding: 2em;
+}
+
+footer {
+  padding: 2em;
+  color: white;
+  background-color: #25a2c3;
+}
+
+footer h1 {
+  color: white;
+}
+
+i {
+  margin: 0 3px;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  width: 50%;
+}
+blockquote {
+  font-size: 0.8em;
+}
