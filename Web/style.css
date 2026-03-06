@@ -119,3 +119,74 @@ h2 {
   width: 100%;
   border-radius: 300px;
 }
+
+.page-divider {
+  background-color: #e22d0e;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: 2em auto;
+}
+
+.page-divider h1,
+.page-divider h2,
+.page-divider p {
+  color: white;
+}
+
+.recap-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.box-container {
+  width: 30%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #dee1e3;
+  border-radius: 10px;
+  margin: 0.7em;
+}
+
+.box-container img {
+  box-sizing: border-box;
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-container p {
+  padding: 1em;
+}
+
+footer {
+  padding: 2em;
+  color: white;
+  background-color: #25a2c3;
+}
+
+footer h1 {
+  color: white;
+}
+
+i {
+  margin: 0 6px;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  width: 25%;
+}
+blockquote {
+  font-size: 0.8em;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+  display: inline-block;
+}
